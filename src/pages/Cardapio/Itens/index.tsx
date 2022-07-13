@@ -38,10 +38,10 @@ export default function Itens(props: IProps){
   }
 
   const ordenarPropriedadeCrescente = (
-    lista: typeof cardapio,
+    newlista: typeof cardapio,
     propriedade: 'size' | 'serving' | 'price'
   ) => {
-    return lista.sort((a, b) => (a[propriedade] > b[propriedade] ? 1 : -1));
+    return newlista.sort((a, b) => (a[propriedade] > b[propriedade] ? 1 : -1));
   };
 
   useEffect(() => {

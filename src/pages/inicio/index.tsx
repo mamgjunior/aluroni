@@ -1,4 +1,3 @@
-import Menu from 'components/Menu';
 import cardapio from 'data/cardapio.json';
 import styles from './inicio.module.scss';
 
@@ -8,7 +7,6 @@ export default function Inicio() {
   
 	return (
 		<section>
-			<Menu />
 			<h3
 				className={styles.titulo}
 			>
